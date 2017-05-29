@@ -85,3 +85,12 @@ puts 'Pleased to meet you, ' + name + '. :)'
 
 
 # ---- See A Few Things to Try 5.6 Ex. In proper directory----
+
+# 5.7 Mind Your Variables
+
+my_birth_month = 'August'
+my_birth_day = 3
+puts my_birth_month + my_birth_day
+#no implicit conversion of Fixnum into String (TypeError)
+
+#Fixnum and Bignum are integers
