@@ -1,5 +1,5 @@
 # calc.rb
-# starts on page 24
+# starts on page 9
 
 # 2.2 Intro to puts
 puts 1 + 2
