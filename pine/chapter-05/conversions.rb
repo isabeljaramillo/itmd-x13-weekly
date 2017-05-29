@@ -72,3 +72,16 @@ puts '20'
 # before puts tries to write out an object, it uses to_s to get
 # the string version of that object. In fact, the s in puts stands for string;
 # puts really means put string
+
+# 5.3 The Gets Method
+puts gets
+# When running, you type will just get repeated back to you.
+
+#Chomp[Enter] Method!
+puts 'Hello there, and what\'s your name?'
+name = gets.chomp
+puts 'Your name is ' + name + '? What a lovely name!'
+puts 'Pleased to meet you, ' + name + '. :)'
+
+
+# ---- See A Few Things to Try 5.6 Ex. In proper directory----
