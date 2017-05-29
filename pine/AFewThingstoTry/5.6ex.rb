@@ -37,11 +37,13 @@ puts "Chris Pine is cooler than you, #{f_name} #{m_name} #{l_name}."
 # Have the program add 1 to the number
 # suggest the result as a bigger and better fav. number. (??)
 
-# How I did it
+# How I did it -
 puts 'What is your favorite number?'
-fnum = gets.chomp
+fnum = gets.chomp.to_i
+betternum = fnum + 1
 puts 'Your favorite number is ' + fnum
-puts 'but the bigger and better number is' + fnum + 1
+puts 'but the bigger and better number is ' + betternum
 #no implicit conversion of Fixnum into String (TypeError)
+
 
 # How the book did it
