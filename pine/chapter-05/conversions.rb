@@ -56,3 +56,19 @@ puts 'stringy' .to_s
 
 puts 3.to_i
 #3
+
+
+# 5.2 Another Look at puts
+puts 20
+#20
+
+puts 20.to_s
+#20
+
+puts '20'
+#20
+
+# SECRET about puts
+# before puts tries to write out an object, it uses to_s to get
+# the string version of that object. In fact, the s in puts stands for string;
+# puts really means put string
