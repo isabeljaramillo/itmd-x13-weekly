@@ -39,8 +39,8 @@ puts '2 * 5'
 
 # 3.3 Problems
 
-puts '12' + 12
-puts '2' * '5'
+## puts '12' + 12
+## puts '2' * '5'
 #no implicit conversion of Fixnum into String (TypeError)
 # also note: program will not cont. to run if there is a bug.
 
@@ -49,5 +49,29 @@ puts '2' * '5'
 puts 'pig' * 5
 
 # We cannot write:
-puts 5 * 'pig'
+## puts 5 * 'pig'
 #String can't be coerced into Fixnum (TypeError)
+
+
+# ---- More issues,.. ----
+## puts 'You're Swell'
+#syntax error, unexpected tIDENTIFIER, expecting end-of-input
+
+# escaping the apostrophe like this
+puts 'You\'re swell!'
+
+# ---- A few examples escaping strings ----
+puts 'You\'re swell!'
+#You're swell!
+
+puts 'backslash at the end of a string: \\'
+#blackslash at the end of a string: \
+
+puts 'up\\down'
+#up\down
+
+puts 'up\down'
+#up\down
+
+# Since the backslash does not escape a d but does escape itself, those last two
+# strings are identical.
