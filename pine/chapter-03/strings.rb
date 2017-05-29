@@ -17,3 +17,6 @@ puts 'blink ' * 4
 # blink blink blink blink
 
 # numbers vs digits
+# 12 is a number but '12' is a string of two digits
+
+puts 12 + 12
