@@ -38,3 +38,16 @@ puts '2 * 5'
 #'2 * 5'
 
 # 3.3 Problems
+
+puts '12' + 12
+puts '2' * '5'
+#no implicit conversion of Fixnum into String (TypeError)
+# also note: program will not cont. to run if there is a bug.
+
+
+# We can write:
+puts 'pig' * 5
+
+# We cannot write:
+puts 5 * 'pig'
+#String can't be coerced into Fixnum (TypeError)
