@@ -23,3 +23,36 @@ puts var1.to_s + var2
 #this below will turn 5 into an integer!
 puts var1 + var2.to_i
 #7
+
+
+# ---- MORE Conversions (with outputs commented) ----
+puts '15' .to_f
+#15.0
+
+puts '99.999' .to_f
+#99.999
+
+puts '99.999' .to_i
+#99
+
+puts ''
+#
+
+puts '5 is my favorite number!' .to_i
+#5
+
+puts 'Who asked you about 5 or whatever?' .to_i
+#0
+#WHY?
+
+puts 'Your momma did.' .to_f
+#0.0
+
+puts ''
+#
+
+puts 'stringy' .to_s
+#stringy
+
+puts 3.to_i
+#3
