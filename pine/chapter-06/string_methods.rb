@@ -21,3 +21,11 @@
  puts var2
  puts var3
  # Then everything will go back to normal.
+
+# Length Methods
+# Tells us the number of characters (including spaces) in the string_methods
+
+puts 'What is your full name?'
+name = gets.chomp
+puts 'Did you know there are ' + name.length + 'characters'
+puts 'in your name, ' + name +'?'
