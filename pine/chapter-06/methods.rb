@@ -14,3 +14,19 @@
 # /
 
 # Methods are things that do stuff
+# Just like every verb needs a noun, every method needs an object.
+
+# for example
+puts ('hello ' .+ 'world')
+puts ((10 .* 9) .+ 9)
+
+# Remember:
+# 'pig'*5 is telling 'pig' to do the multiplying,
+# but 5*'pig' is telling 5 to do the multiplying.
+# 'pig' knows how to make 5 copies of itself and
+# add them all together;
+# however, 5 will have a much more difficult time of making 'pig' copies
+# of itself and adding them together.
+
+puts self
+#main
