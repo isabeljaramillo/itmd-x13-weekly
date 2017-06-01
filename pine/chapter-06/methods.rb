@@ -30,3 +30,6 @@ puts ((10 .* 9) .+ 9)
 
 puts self
 #main
+
+# The important thing to get from all this is that every method is being done
+# by some object, even if it doesn’t have a dot in front of it
