@@ -31,3 +31,17 @@ name = gets.chomp
 # That’s easy enough; we’ll just throw in a .to_s
 puts 'Did you know there are ' + name.length.to_s + 'characters'
 puts 'in your name, ' + name +'?'
+
+
+
+# How I would do it individually
+puts 'What is your first name?'
+fname = gets.chomp
+puts 'What about your middle name?'
+mname = gets.chomp
+puts "What's your last name?"
+lname = gets.chomp
+
+full_name = fname + mname + lname
+puts 'Did you know there are ' + full_name.length.to_s + 'characters'
+puts 'in your name, ' + full_name + '?'
