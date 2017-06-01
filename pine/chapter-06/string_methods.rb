@@ -27,5 +27,7 @@
 
 puts 'What is your full name?'
 name = gets.chomp
-puts 'Did you know there are ' + name.length + 'characters'
+# The problem is with length: it gives us an integer, but we want a string.
+# That’s easy enough; we’ll just throw in a .to_s
+puts 'Did you know there are ' + name.length.to_s + 'characters'
 puts 'in your name, ' + name +'?'
