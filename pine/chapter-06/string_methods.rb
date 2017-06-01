@@ -45,3 +45,17 @@ lname = gets.chomp
 full_name = fname + mname + lname
 puts 'Did you know there are ' + full_name.length.to_s + 'characters'
 puts 'in your name, ' + full_name + '?'
+
+# Cases: String methods can change upcase and lowercase of letters
+# Upcase
+# Downcase
+# Swapcase
+# Capitalize
+
+letters = 'aAbBcCdDeE'
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+puts ' a'.capitalize
+puts letters
