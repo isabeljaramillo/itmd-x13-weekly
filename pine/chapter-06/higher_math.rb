@@ -76,3 +76,5 @@ puts(Math.log(Math::E**2))
 
 puts((1 + Math.sqrt(5))/2)
 #1.618033988749895
+
+# Notice the :: scope operator
