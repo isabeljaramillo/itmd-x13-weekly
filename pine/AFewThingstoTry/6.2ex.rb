@@ -10,4 +10,4 @@
 
 puts 'What do you want?!'
 want = gets.chomp
-puts 'WHAT?' + want.upcase + '?! YOU\RE FIRED!!'
+puts 'WHAT?! "' + want.upcase + '"?! YOU\'RE FIRED!!'
