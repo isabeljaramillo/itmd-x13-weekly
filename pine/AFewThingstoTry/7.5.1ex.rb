@@ -14,3 +14,39 @@ puts str
 puts 'WHAT?! SPEAK UP, SONNY'
 puts str.upcase
 puts 'No, not since ' + random_year.to_s + '!'
+
+
+# How it could be done
+
+puts 'HEY THERE, SONNY! GIVE GRANDMA A KISS!'
+while true
+  said = gets.chomp
+  if said == "BYE"
+    puts 'BYE SWEETIE!'
+    break
+  end
+
+  if said != said.upcase
+    puts 'HUH?! SPEAK UP, SONNY!'
+  else
+    random_year = 1930 + rand(21)
+    puts 'NO, NOT SINCE ' + random_year.to_s + '!'
+  end
+end
+
+# How the Chris would do it
+puts 'HEY THERE, SONNY! GIVE GRANDMA A KISS!'
+while true
+  said = gets.chomp
+  break if said == "BYE"
+  response = if said != said.upcase
+    'HUH?! SPEAK UP, SONNY!'
+  else
+    "NO, NOT SINCE #{1930 + rand(21)}!"
+  end
+  puts response
+end
+
+puts 'BYE SWEETIE!'
+
+# ---- Deaf Gradma Extended ----
