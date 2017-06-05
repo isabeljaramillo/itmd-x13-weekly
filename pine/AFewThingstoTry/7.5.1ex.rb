@@ -50,3 +50,29 @@ end
 puts 'BYE SWEETIE!'
 
 # ---- Deaf Gradma Extended ----
+# Change your previous program so that you have to shout
+# BYE three times in a row.
+puts 'Hey there, sweetie!'
+count = 0
+
+while true
+  said = gets.chomp
+  if said == 'BYE'
+    count += 1
+  else
+    count = 0
+end
+  if count >= 3
+    puts 'BYE-BYE GRANDCHILD OF MINE!'
+    break
+  end
+
+  if said != said.upcase
+    puts 'HUH?! SPEAK UP, YOU!'
+  else
+    random_year = 1930 + rand(21)
+    puts 'NO, NOT SINCE ' + random_year.to_s + '!'
+  end
+end
+
+# ---- Leap Years ----
