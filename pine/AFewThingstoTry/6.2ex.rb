@@ -21,3 +21,20 @@ puts "WHADDAYA MEAN \"#{request.upcase}\"?!? YOU'RE FIRED!!"
 # CAN' T YOU SEE I' M BUSY?! MAKE IT FAST, WEINBERG!
 # I quit
 # WHADDAYA MEAN "I QUIT"?!? YOU'RE FIRED!!
+
+
+
+# Table of Contents
+# Write a program that'll display the table of contents.
+
+#How it could be done
+title = 'Table of Contents'.center(50)
+chap1 = 'Chatper 1: Getting started'.ljust(30) + 'page 1'.rjust(20)
+chap2 = 'Chatper 2: Numbers'.ljust(30) + 'page 9'.rjust(20)
+chap3 = 'Chatper 3: Letters'.ljust(30) + 'page 13'.rjust(20)
+
+puts title
+puts
+puts chap1
+puts chap2
+puts chap3
