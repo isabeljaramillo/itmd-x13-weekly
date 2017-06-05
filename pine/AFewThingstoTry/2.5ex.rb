@@ -2,15 +2,15 @@
 # 2.5-Exercise
 
 # Hours in a year
-puts "How many hours are in a year?"
-puts "Hours in a year: #{24 * 365} "
+puts 'How many hours are in a year?'
+puts 'Hours in a year: #{24 * 365}'
 
 #Leap Year?
-puts "Hours in a leap year: #{24 * 366}"
+puts 'Hours in a leap year: #{24 * 366}'
 
 # Minutes in a decade
-puts "How many minutes are in a decade?"
-puts "Minutes in a decade: #{60*24*(365*10 + 2)}"
+puts 'How many minutes are in a decade?'
+puts 'Minutes in a decade: #{60*24*(365*10 + 2)}'
 
 
 # Age in seconds, 23
