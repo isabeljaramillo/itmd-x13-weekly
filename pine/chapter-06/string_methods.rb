@@ -71,3 +71,16 @@ puts ' a'.capitalize
 
 puts letters
 #aAbBcCdDeE
+
+
+
+# ---- More Fancy Methods ----
+#stores the width of the poem in the variable line_width
+
+line_width = 50
+puts ( 'Old Mother Hubbard'.center(line_width))
+puts ('Sat in her cuppard'.center(line_width))
+puts ('Eating her curds and whey,'.center(line_width))
+puts ('When along came a spider'.center(line_width))
+puts ('Who sat down beside her'.center(line_width))
+puts ('And scared ehr poor shoe dog away.'.center(line_width))
