@@ -54,8 +54,20 @@ puts 'in your name, ' + full_name + '?'
 
 letters = 'aAbBcCdDeE'
 puts letters.upcase
+#AABBCCDDEE
+
 puts letters.downcase
+#aabbccddee
+
 puts letters.swapcase
+#AaBbCcDdEe
+
+#The following method will only Capitalize the first CHARACTER, NOT the first LETTTER
 puts letters.capitalize
+#Aabbccddee
+
 puts ' a'.capitalize
+# a
+
 puts letters
+#aAbBcCdDeE
