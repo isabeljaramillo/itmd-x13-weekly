@@ -28,3 +28,9 @@ puts 'bug lady' < 'Xander'
 # false
 puts 'bug lady'.downcase < 'Xander'.downcase
 # true
+
+puts 2 < 10
+
+#this is comparing it as a string. 2 is not larger than 1
+puts '2' < '10'
+#false
