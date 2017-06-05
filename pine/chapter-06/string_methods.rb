@@ -99,3 +99,7 @@ puts(str.ljust(line_width/2) + str.rjust(line_width/2))
 #              --> text <--
 #                            --> text <--
 #--> text <--                --> text <--
+
+
+
+# ---- See A Few Things to Try 6.2 Ex. In proper directory ----
