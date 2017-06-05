@@ -22,3 +22,25 @@ else
   puts 'Your future is.. oh my! Look at the time!'
   puts 'I really have to go, sorry!'
 end
+
+# Just like the branches of a tree,
+# you can have branches that themselves have branches,
+# as we can see on the next page.
+
+puts 'Hello, and welcome to the seventh grade English'
+puts 'My name is Mrs. Gabbard. And your name is...?'
+name = gets.chomp
+
+if name == name.capitalize
+  puts 'Please takea seat, ' + name + '.'
+else
+  puts name = '? You mean ' + name.capitalize + ' , right?'
+  puts 'Don\'t you even know how to spell your name??'
+  reply = gets.chomp
+
+  if reply.downcase == 'yes'
+    puts 'Hmmph! Well, sit down!'
+  else
+    puts 'GET OUT!!!'
+  end
+end
