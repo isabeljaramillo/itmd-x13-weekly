@@ -110,7 +110,7 @@ puts 'Please enter a starting year - any year:'
 starts = gets.chomp.to_i
 
 puts 'Now please enter an ending year:'
-ends = gets.chomps.to_i
+ends = gets.chomp.to_i
 
 puts 'Leap years:'
 
