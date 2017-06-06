@@ -19,3 +19,5 @@ puts '<crickets chirp in the distance>'
 # lang is a variable that each will use to point to the object in the array
 # the verticle bars do nothing to lang, they just let EACH know which variable
 # to use to feed in the array.
+
+# while, end, do, if , else are just keywords
