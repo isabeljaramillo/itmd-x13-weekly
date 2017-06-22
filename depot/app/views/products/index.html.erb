@@ -4,7 +4,8 @@
 
 <table>
 <% @products.each do |product| %>
-  <tr class = "<%= cycle('list_line_odd', 'list_line_even') %>">
+  <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+
     <td>
       <%= image_tag(product.image_url, class: 'list_image') %>
     </td>
@@ -13,7 +14,7 @@
       <dl>
         <dt><%= product.title %></dt>
         <dd><%= truncate(strip_tags(product.description),
-        length:80) %></dd>
+        length: 80) %></dd>
       </dl>
     </td>
 
